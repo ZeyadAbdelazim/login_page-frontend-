@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #efeee7;
+}
+.login .bg img{
+    width: 480px;
+    padding-left: 20px;
+    margin-top: -3px;
+}
+form{
+    float: right;
+    width: 50%;
+    padding-top: 140px;
+}
+form .form-group input{
+width: 80%;
+overflow: hidden;
+}
+form .btn{
+    width: 120px;
+}
+form a{
+    display: block;
+    padding: 10px 10px 10px 0;
+    text-decoration: none;
+    color: black;
+}
+form a:hover{
+    color: gray;
+}
+form .a_account{
+    padding-top: 50px;
+}
+form input:hover{
+    outline-color: black 30px;
+}
+
+@media(max-width:480px){
+    
+    .login .bg img{
+        width: 250px;
+        margin: 20%;    }
+    .login form{
+        margin-top: -90px;
+        text-align: center;
+        
+    }
+    form{
+        padding-top: 100px;
+        }
+    .login input{
+        margin: auto;
+    }
+}
+@media(max-width:768px) and (min-width:481px){
+    
+    .login .bg img{
+        width: 290px;
+        
+        margin-left: 20%;   
+    }
+    .login form{
+        margin-top: -70px;
+        text-align: center;
+        
+    }
+    form{
+        padding-top: 100px;
+        }
+    .login input{
+        margin: auto;
+    }
+}
+@media(max-width:1279px) and (min-width:769px){
+    
+    .login .bg img{
+        width: 290px;
+        
+        margin-left: 27%;   
+    }
+    form{
+    padding-top: 100px;
+    }
+    .login form{
+        margin-top: -70px;
+        text-align: center;
+        
+    }
+    .login input{
+        margin: auto;
+    }
+}
